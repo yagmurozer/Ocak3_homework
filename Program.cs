@@ -1,4 +1,4 @@
-﻿// finding is odd or even of a number
+﻿// finding is a number odd or even
 Console.Write("lütfen bir sayı girin:");
 int num1 = Convert.ToInt32(Console.ReadLine());
 if (num1 % 2 == 1)
@@ -10,7 +10,7 @@ else
     Console.WriteLine($"{num1} sayısı çifttir");
 }
 
-// finding is possitive, negative or zero of a number
+// finding is a number possitive, negative or zero
 Console.Write("lütfen bir sayı girin:");
 double num2 = Convert.ToDouble(Console.ReadLine());
 if (num2 > 0)
